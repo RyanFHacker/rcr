@@ -58,7 +58,7 @@ function App() {
           { name: 'EarthWurmVince', bp: 210, pp: 100 },
           { name: 'Audiyoo', bp: 210, pp: 400 },
           { name: 'BrandonChun', bp: 30, pp: 0 },
-          { name: 'OliverQueen', bp: 750, pp: 2400 },
+          { name: 'OliverQueen', bp: 790, pp: 2400 },
           { name: 'TheGreatMalcom', bp: 200, pp: 300 },
           { name: 'SugarJLeonard', bp: 70, pp: 0 },
           { name: 'AreaFiftyZ', bp: 220, pp: 800 },
