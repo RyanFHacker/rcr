@@ -73,7 +73,7 @@ function App() {
           { name: 'JSSN', bp: 60, pp: 0 },
           { name: 'sinister x', bp: 470, pp: 600 },
           { name: 'snanta', bp: 60, pp: 0 },
-          { name: 'Judas Iscariot', bp: 900, pp: 2300 },
+          { name: 'Judas Iscariot', bp: 920, pp: 2300 },
           { name: 'daredevil_hermz', bp: 180, pp: 0},
           { name: 'Corey Breeze', bp: 300, pp: 100 },
           { name: 'Izzzzymode', bp: 20, pp: 0 },
