@@ -45,12 +45,13 @@ function App() {
       <MaterialTable 
         options={{
           pageSize: 10,
+          sorting: true,
         }}
         icons={tableIcons}
         columns={[
           {title: 'Player', field: 'name' },
           {title: 'BP', field: 'bp' },
-          {title: 'PP', field: 'pp' },
+          {title: 'PP', field: 'pp', defaultSort: 'desc'},
         ]}
         data={[
           { name: 'Droobertson', bp: 60, pp: 0 },
