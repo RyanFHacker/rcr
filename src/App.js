@@ -74,7 +74,7 @@ function App() {
           { name: 'blockie', bp: 160, pp: 0 },
           { name: 'sinister x', bp: 730, pp: 700 },
           { name: 'snanta', bp: 60, pp: 0 },
-          { name: 'Judas Iscariot', bp: 1190, pp: 3100 },
+          { name: 'Judas Iscariot', bp: 1360, pp: 3400 },
           { name: 'daredevil_hermz', bp: 180, pp: 0},
           { name: 'Corey Breeze', bp: 300, pp: 100 },
           { name: 'Izzzzymode', bp: 20, pp: 0 },
