@@ -72,7 +72,7 @@ function App() {
           { name: 'Flash House', bp: 1100, pp: 2600 },
           { name: 'Captain Terror', bp: 320, pp: 0 },
           { name: 'blockie', bp: 160, pp: 0 },
-          { name: 'sinister x', bp: 470, pp: 600 },
+          { name: 'sinister x', bp: 730, pp: 700 },
           { name: 'snanta', bp: 60, pp: 0 },
           { name: 'Judas Iscariot', bp: 1190, pp: 3100 },
           { name: 'daredevil_hermz', bp: 180, pp: 0},
