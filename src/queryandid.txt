@@ -1,0 +1,33 @@
+//Query Builder!
+//https://developer.smash.gg/docs/sending-requests
+{
+  "query": "...",
+  "operationName": "...",
+  "variables": { "myVariable": "someValue", ... }
+}
+event id: 501157
+const GET_TOURNAMENT= `
+  query TournamentsByState($tid: ID!) {
+    tournaments(query: {
+      filter: {
+        id: $tid
+      }
+    }) {
+      nodes {
+        id
+        name
+      }
+    }
+  },
+`;
+
+{
+    "week1": 563107,
+    "week2": 565187,
+    "week3": 567007,
+    "week4": 568906,
+    "week5": 572418,
+    "week6": 574553,
+    "week7": 576601,
+    "week8": 578637
+}
