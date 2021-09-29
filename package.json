@@ -1,22 +1,31 @@
 {
-  "name": "rcr",
+  "name": "rcr2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.11.4",
+    "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^5.0.2",
-    "material-table": "^1.69.2",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.21.4",
+    "cross-fetch": "^3.1.4",
+    "graphql": "^15.6.0",
+    "graphql-tag": "^2.12.5",
+    "iconify": "^1.3.0",
+    "material-table": "^1.69.3",
+    "material-ui": "^0.20.2",
     "react": "^17.0.2",
-    "react-bootstrap": "^1.6.1",
+    "react-apollo": "^3.1.5",
     "react-dom": "^17.0.2",
     "react-external-link": "^1.2.2",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,7 +52,6 @@
     ]
   },
   "devDependencies": {
-    "@iconify-icons/mdi": "^1.1.15",
-    "@iconify/react": "^1.1.4"
+    "@iconify/react": "^3.0.1"
   }
 }

@@ -14,24 +14,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { MainListItems, SocialListItems } from './listItems';
-// import DashboardList from './DashboardList'
-// import ListItem from '@material-ui/core/ListItem';
-// import BarChartIcon from '@material-ui/icons/BarChart';
-// import ListItemLink from './ListItemLink'
-// import Ranbats from '../pages/Ranbats'
-
-// function Copyright() {
-//   return (
-//     <Typography variant="body2" color="textSecondary" align="center">
-//       {'Copyright © '}
-//       <Link color="inherit" href="https://material-ui.com/">
-//         Your Website
-//       </Link>{' '}
-//       {new Date().getFullYear()}
-//       {'.'}
-//     </Typography>
-//   );
-// }
 
 const drawerWidth = 240;
 
@@ -170,7 +152,7 @@ const Dashboard = (props) => {
           <SocialListItems />
         </List>
       </Drawer>
-      <div >{props.children}</div>
+      <div className={classes.content}>{props.children}</div>
     </div>
   );
 }
