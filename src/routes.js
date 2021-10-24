@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Dashboard from './components/Dashboard'
 import Ranbats from './pages/Ranbats'
-import Events from './pages/Events'
+import Events from './pages/EventsPage'
 
 export default function Routes() {
     return (
