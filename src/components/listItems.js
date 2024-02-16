@@ -42,7 +42,7 @@ export const MainListItems = () => {
       <ListItemIcon>
         <ShoppingCartIcon />
       </ListItemIcon>
-      <ListItemText primary="Shop" />
+      <ListItemText primary="Shopper" />
     </ListItem>
   </div>
   )
